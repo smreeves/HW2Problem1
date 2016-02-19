@@ -16,6 +16,6 @@ public class FindLastTest
 {
    int arr[] = {2, 3, 5};
    int y = 2;
-   assertEquals("Last occurence in first element", 0, FindLast.findLast(arr, y));
+   assertEquals("Last occurence in first element", 1, FindLast.findLast(arr, y));
 }
 }
